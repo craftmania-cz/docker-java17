@@ -1,4 +1,4 @@
-FROM openjdk:17.0.1-slim
+FROM openjdk:17.0.2-slim
 
 MAINTAINER CraftMania.cz, <services@craftmania.cz>
 
