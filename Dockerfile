@@ -1,6 +1,6 @@
-FROM openjdk:17.0.2-slim
+FROM eclipse-temurin:17.0.11_9-jdk
 
-MAINTAINER CraftMania.cz, <services@craftmania.cz>
+LABEL maintainer="CraftMania.cz <support@craftmania.cz>"
 
 RUN apt-get update -y \
  	&& apt-get install -y curl ca-certificates openssl git tar sqlite3 fontconfig libfreetype6 tzdata iproute2 libstdc++6 \
